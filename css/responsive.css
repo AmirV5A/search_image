@@ -1,0 +1,70 @@
+@media screen and (max-width:640px) {
+
+
+    #search-form {
+        max-width:80%;
+        height: 85px;
+        margin: auto;
+        
+    
+    }
+    
+    #input-text[placeholder] {
+        margin: auto;
+        margin-left: 5%;
+        font-size: 15px;
+        color: #fff;
+       
+    }
+    
+    #search-btn {
+        padding: 0 20px;
+        height: 100%;
+        background-color: aqua;
+        color: #000;
+    
+      
+        cursor: pointer;
+    }
+    
+    h1 {
+        margin: 5%;
+        font-size: 38px;
+        font-weight: 400;
+    }
+    
+    
+       p {
+       margin: auto;
+       margin-left: 6%;
+       margin-right: 8%;
+       
+        
+       }
+    
+       #search-result {
+        width: 95%;
+        margin: 100px auto 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 30px;
+       
+    }
+    
+       #search-result img  {
+        position:relative;
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: none;
+        outline: none;
+        background: rgb(197, 193, 214);
+        background: radial-gradient(circle, rgba(46,0,230,1) 1%, rgba(37,126,200,1) 21%, rgba(36,130,208,1) 22%, rgba(30,8,222,1) 55%, rgba(9,192,242,1) 86%, rgba(0,212,255,1) 100%);
+    }
+    #input-text {
+        width: 90%;
+    }
+    
+    }
